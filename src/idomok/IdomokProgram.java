@@ -98,7 +98,7 @@ public class IdomokProgram {
     }
 
     public void run() {
-        //System.out.println(rendezettLista());
+       
         System.out.println("Az idomok összes súlya:" + idomokOsszesSulya());
         System.out.println("A gömbök összes súlya:" + gombokSulya());
         System.out.println("A legkisebb és a legnagyobb térfogatú idom típusa és adatai:");
