@@ -99,12 +99,12 @@ public class IdomokProgram {
 
     public void run() {
        
-        System.out.println("Az idomok összes súlya:" + idomokOsszesSulya());
-        System.out.println("A gömbök összes súlya:" + gombokSulya());
-        System.out.println("A legkisebb és a legnagyobb térfogatú idom típusa és adatai:");
+        System.out.println("Az idomok osszes sulya:" + idomokOsszesSulya());
+        System.out.println("A gombok osszes sulya:" + gombokSulya());
+        System.out.println("A legkisebb és a legnagyobb terfogatu idom tipusa és adatai:");
         legKisebbEsLegnagyobbTerfogatu();
-        System.out.println("Hányféle sugarú gömb van?" + Gomb.getKulonbozoSugaruDb());
-        System.out.println("Azonos alapterületű hasábokból mennyi van?");
+        System.out.println("Hanyfele sugaru gomb van?" + Gomb.getKulonbozoSugaruDb());
+        System.out.println("Azonos alapteruletu hasabokból mennyi van?");
         azonosAlapteruletuHasabokSzama();
 
     }
